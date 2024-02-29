@@ -18,7 +18,9 @@ public class SpringBootHelloWorldApplication {
 	}
 
 	@RequestMapping("/new")
-	public
+	public String nuevo(){
+		return "Cositas nuevas.";
+	}
 
 
 }

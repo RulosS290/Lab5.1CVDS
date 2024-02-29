@@ -17,5 +17,8 @@ public class SpringBootHelloWorldApplication {
 		return "Hello world String Boot";
 	}
 
+	@RequestMapping("/new")
+	public
+
 
 }

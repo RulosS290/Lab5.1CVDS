@@ -96,9 +96,14 @@ Antes de comenzar, asegúrate de tener **Node.js** y **npm** instalados en tu m�
      ```bash
      npm run build
      ```
-   - Esto creará una carpeta `build` con los archivos optimizados para producción.
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/c537c8ae-b8d4-473c-b852-ef2060ef7a04)
 
-2. **Integra tu aplicación React con Spring Boot**:
+   - Esto creará una carpeta `build` con los archivos optimizados para producción.
+  
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/322f74f1-2f2e-4db8-8f44-c56d604636ac)
+
+
+1. **Integra tu aplicación React con Spring Boot**:
    - Copia los archivos de la carpeta `build` generada en el directorio de recursos de tu proyecto Spring Boot (por ejemplo, `src/main/resources/static`).
    - Ahora, cuando ejecutes tu aplicación Spring Boot, también servirá la aplicación React.
 

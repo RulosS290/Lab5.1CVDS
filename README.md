@@ -86,7 +86,8 @@ Antes de comenzar, aseg√∫rate de tener **Node.js** y **npm** instalados en tu m√
    - Dentro de este archivo, crea un componente funcional que renderice un mensaje "Hello World".
      ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/1f588e68-c340-4d95-ba75-7e56be9a60ce)
 
-     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/9e720e74-46f6-43c2-bef7-bfef73163740)
+    ![image](https://github.com/RulosS290/Lab5.1CVDS/assets/89041250/d4eb7b70-6671-4363-8238-89e862401352)
+
 
      ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/3339d1f0-7f28-4367-aadf-1c23c72ba50d)
 

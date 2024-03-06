@@ -170,9 +170,14 @@ Como desarrollador fullstack con experiencia en React y Spring Boot, puedo ayuda
     ```
 
    - En este ejemplo, solo se permiten solicitudes desde `http://mi-frontend.com`, se aceptan todos los encabezados y se habilitan los métodos GET y POST.
+  
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/1ed8008d-de3c-485a-b05b-6d0cb69ddaea)
+
 
 4. **Prueba tu Servicio**:
    - Inicia tu aplicación Spring Boot y accede al endpoint `/api/hello` desde tu aplicación frontend (por ejemplo, una aplicación React).
    - Deberías poder recibir una respuesta exitosa sin errores de CORS.
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/5cabfff4-0de9-4a37-b38e-3a0687f4b01b)
+
 
 ¡Listo! Siguiendo estos pasos, habrás configurado correctamente CORS en tu servicio "Hello, World" de Spring Boot. Si tienes alguna pregunta adicional o necesitas más detalles, no dudes en preguntar. 😊

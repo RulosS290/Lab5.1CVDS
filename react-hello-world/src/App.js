@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Daniel Torres
+            Diego Castellanos
         </p>
         <HelloWorld/>
       </header>

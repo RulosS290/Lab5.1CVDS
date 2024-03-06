@@ -24,5 +24,11 @@ public class SpringBootHelloWorldApplication {
 		return "Hello World";
 	}
 
+	@CrossOrigin("http://localhost:3000")
+	@RequestMapping("/api/hello")
+	public String hello(){
+		return "¡Hola, Mundo!";
+	}
+
 
 }

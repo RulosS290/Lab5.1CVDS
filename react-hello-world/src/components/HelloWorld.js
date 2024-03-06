@@ -7,7 +7,8 @@ function HelloWorld() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get('http://localhost:8080/new')
+        axios.get('http://localhost:8080/api/hello' +
+            '')
             .then(response => {
                 setData(response.data);
                 setLoading(false);

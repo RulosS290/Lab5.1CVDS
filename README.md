@@ -16,6 +16,9 @@ Para comenzar, sigue estos pasos:
      - **Group**: net.codejava
      - **Artifact**: SpringBootHelloWorld
      - **Dependencies**: Elige "Web" para habilitar el manejo de solicitudes HTTP.
+       ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/ce2ba266-7cc3-40b4-9cf0-62010c919b75)
+
+       ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/33a9acfc-3e58-4859-af99-78f31d65c23d)
 
 2. **Estructura del Proyecto**:
    - Descomprime el archivo descargado en una carpeta.
@@ -27,6 +30,9 @@ Para comenzar, sigue estos pasos:
    - Agrega la anotación `@RestController` a la clase.
    - Crea un método llamado `home()` con la anotación `@RequestMapping("/")` que devuelve un mensaje "Hello world Spring Boot".
 
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/a17d3426-fdd9-4835-8079-96924adec0a6)
+
+
 2. **Ejecuta la Aplicación**:
    - Ejecuta la aplicación usando el comando `mvn spring-boot:run`.
    - Accede a ella desde el navegador en [http://localhost:8080/](http://localhost:8080/).
@@ -34,12 +40,21 @@ Para comenzar, sigue estos pasos:
 3. **Personalización del Mensaje**:
    - Modifica el método `home()` para usar etiquetas HTML y agrega otro método con `@RequestMapping("/new")` que devuelva otro mensaje.
 
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/a05b6249-2437-42ea-8a0b-b05029033360)
+
+
 ### 4. Empaquetado y Ejecución
 1. **Empaqueta la Aplicación**:
    - Ejecuta `mvn package` para crear un archivo JAR ejecutable.
 
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/f9465651-8646-4aa3-82fd-4ee92cd55c34)
+
+
 2. **Ejecuta la Aplicación**:
    - Ejecuta la aplicación con el comando `java -jar target/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar`.
+
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/994f15d2-ab53-409f-8e52-df21c41a46df)
+
 
 ¡Listo! Ahora tienes un proyecto Spring Boot con un servicio "Hello World".
 
@@ -56,10 +71,14 @@ Antes de comenzar, asegúrate de tener **Node.js** y **npm** instalados en tu m�
      ```
    - Esto creará una carpeta llamada `react-hello-world` con la estructura básica de un proyecto React.
 
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/18028cea-1022-4428-85c9-1ad6becf66ff)
+
+
 2. **Navega al directorio del proyecto**:
    ```bash
    cd react-hello-world
    ```
+   ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/5158c8a3-34e2-4e53-a68f-3fb62f06d1e6)
 
 ### 3. Consumiendo el Servicio Spring Boot
 1. **Crea un componente React**:
@@ -106,6 +125,9 @@ Antes de comenzar, asegúrate de tener **Node.js** y **npm** instalados en tu m�
 1. **Integra tu aplicación React con Spring Boot**:
    - Copia los archivos de la carpeta `build` generada en el directorio de recursos de tu proyecto Spring Boot (por ejemplo, `src/main/resources/static`).
    - Ahora, cuando ejecutes tu aplicación Spring Boot, también servirá la aplicación React.
+  
+     ![imagen](https://github.com/RulosS290/Lab5.1CVDS/assets/146139366/46312449-739d-4c88-99c1-984d48bd1341)
+
 
 ¡Listo! Ahora tienes un proyecto React que consume el servicio "Hello World" de Spring Boot.
 
